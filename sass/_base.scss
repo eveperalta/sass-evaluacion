@@ -1,0 +1,145 @@
+.navbar{
+	background-color: $bgcolor;
+	ul{
+		li{
+			a{
+				color: $acolor; 
+			}
+		}
+	}
+}
+//foto cuadro a la izquierda
+.foto{
+	background-image:url(../img/1.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 350px;	
+
+
+.text{
+	background-color:$colortext;
+	position:relative;
+	top: 233px;
+	a{
+		color:$bgcolor;
+		margin-left: 10px;
+		font-weight: bold;
+	}
+	p{
+		 color:$bgcolor;
+		 margin-left: 10px;
+
+	}
+  }
+}
+//foto top derecha
+.rigth{
+	background-image:url(../img/6.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 215px;
+
+.text1{
+	background-color:$colortext;
+	position:relative;
+	top:120px;
+	a{
+		color:$bgcolor;
+		margin-left: 10px;
+		font-weight: bold;
+	}
+	p{
+		 color:$bgcolor;
+		 margin-left: 10px;
+
+	}
+  }
+}
+//foto top bottom left
+.righta{
+	background-image:url(../img/13.png);
+	background-size: 200px;
+	background-repeat: no-repeat;
+	height: 155px;
+	margin-top:10px;
+	.text2{
+		background-color:$colortext;
+		position:relative;
+		top:78px;
+		width:199px;
+	a{
+		color:$bgcolor;
+		font-weight: bold;
+	}
+  }
+}
+//foto top bottom left
+.rightb{
+	background-image:url(../img/31.png);
+	background-size: 200px;
+	background-repeat: no-repeat;
+	height: 122px;
+	margin-top:10px;
+	margin-left: -38px;
+	.text2{
+		background-color:$colortext;
+		position:relative;
+		top:78px;
+		width:176px;
+	a{
+		color:$bgcolor;
+		font-weight: bold;
+	}
+  }
+}
+.first{
+	ul{
+		li{
+			img{
+				float:left;
+				width:auto;
+			}
+		}
+	}
+}
+.title{
+		position:relative;
+		left: 10px;
+
+	span{
+		margin-left:5px;
+	}
+	a{
+		font-size:12px;
+	}
+}
+.rating{
+	@extend .title;
+}
+.social{
+	background-color:#F0EEEE;
+	margin-top: -7px;
+	width: 90px;
+	height: 60px;
+	padding-bottom: 50px;
+	p{
+		text-align:center;
+		margin-top:-5px;
+		padding: 8px;
+
+	}
+}
+.line{
+	border-bottom: 1px solid red;
+	padding-bottom:8px;
+	span{
+		border-bottom: 4px solid red;
+		width: auto;
+		padding-bottom: 7px;
+	}
+	
+}
+.video{
+	margin-top:$margintop;
+	padding-top: $margintop;
+}
