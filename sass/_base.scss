@@ -146,20 +146,17 @@
 	margin-top:$margintop;
 	padding-top: $margintop;
 	iframe{
-		
+		margin-left: 5px;
 	}
 }
-.sidebar{
+.pics{
 
-	ul{
-		li{
-			display: inline-block;
-			img{
-				display: inline-block;
+	img{
+	 display: inline-block;
+	 padding:10px;
+	 margin-left:5px;
 				
-			}
 		}
-	}
 }
 .news{
 	padding:2px;
