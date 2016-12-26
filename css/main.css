@@ -2314,7 +2314,7 @@ td, th {
         color: #fff;
         background-color: #999;
         text-align: center; }
-      .collection .collection-item.avatar .title, .collection .collection-item.avatar .rating {
+      .collection .collection-item.avatar .title, .collection .collection-item.avatar .rating, .collection .collection-item.avatar .ls-rating, .collection .collection-item.avatar .rating-pics, .collection .collection-item.avatar .ls-title {
         font-size: 16px; }
       .collection .collection-item.avatar p {
         margin: 0; }
@@ -6429,16 +6429,16 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   float: left;
   width: auto; }
 
-.title, .rating {
+.title, .rating, .ls-rating, .rating-pics, .ls-title {
   position: relative;
   left: 10px; }
-  .title span, .rating span {
+  .title span, .rating span, .ls-rating span, .rating-pics span, .ls-title span {
     margin-left: 5px; }
-  .title a, .rating a {
+  .title a, .rating a, .ls-rating a, .rating-pics a, .ls-title a {
     font-size: 12px;
     color: black; }
 
-.rating {
+.rating, .ls-rating, .rating-pics {
   color: #FC0000; }
 
 .social {
@@ -6463,11 +6463,13 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .video {
   margin-top: 15px;
   padding-top: 15px; }
+  .video iframe {
+    margin-left: 5px; }
 
-.sidebar ul li {
-  display: inline-block; }
-  .sidebar ul li img {
-    display: inline-block; }
+.pics img {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 5px; }
 
 .news {
   padding: 2px; }
@@ -6499,7 +6501,7 @@ button.accordion:after {
   margin-left: 5px; }
 
 button.accordion.active:after {
-  content: "\2212"; }
+  content: '\2212'; }
 
 div.panel {
   padding: 0 18px;
@@ -6512,5 +6514,48 @@ div.panel {
 div.panel.show {
   opacity: 1;
   max-height: 500px; }
+
+.fila2 {
+  position: relative;
+  top: -1400px; }
+  .fila2 a {
+    float: right;
+    color: black; }
+
+.ls-title {
+  float: left;
+  font-size: 14px; }
+  .ls-title a {
+    font-weight: bold; }
+
+.ls-rating {
+  float: left;
+  font-size: 12px; }
+
+.listpics {
+  border-bottom: 1px solid #CCCBCB;
+  height: 115px;
+  margin-bottom: 5px; }
+  .listpics img {
+    margin-top: 5px; }
+
+.rating-pics i {
+  position: relative;
+  left: 140px;
+  top: -60px; }
+.rating-pics span {
+  position: relative;
+  left: 140px;
+  top: -60px; }
+
+.list-pics1 {
+  position: relative;
+  top: 10px; }
+
+.navbar2 {
+  margin-top: -50px; }
+
+.wnlist {
+  margin-top: -15px; }
 
 /*# sourceMappingURL=main.css.map */
