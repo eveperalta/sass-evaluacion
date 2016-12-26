@@ -6367,14 +6367,15 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   .foto .text {
     background-color: rgba(0, 0, 0, 0.5);
     position: relative;
-    top: 233px; }
+    top: 245px; }
     .foto .text a {
       color: white;
       margin-left: 10px;
       font-weight: bold; }
     .foto .text p {
       color: white;
-      margin-left: 10px; }
+      margin-left: 10px;
+      font-size: 12px; }
 
 .rigth {
   background-image: url(../img/6.png);
@@ -6434,7 +6435,11 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   .title span, .rating span {
     margin-left: 5px; }
   .title a, .rating a {
-    font-size: 12px; }
+    font-size: 12px;
+    color: black; }
+
+.rating {
+  color: #FC0000; }
 
 .social {
   background-color: #F0EEEE;
@@ -6458,5 +6463,54 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .video {
   margin-top: 15px;
   padding-top: 15px; }
+
+.sidebar ul li {
+  display: inline-block; }
+  .sidebar ul li img {
+    display: inline-block; }
+
+.news {
+  padding: 2px; }
+  .news h6 {
+    display: inline-block;
+    margin-right: 15px; }
+
+button.accordion {
+  background-color: white;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #C6C5C5;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s; }
+
+button.accordion.active, button.accordion:hover {
+  background-color: #ddd; }
+
+button.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px; }
+
+button.accordion.active:after {
+  content: "\2212"; }
+
+div.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.6s ease-in-out;
+  opacity: 0; }
+
+div.panel.show {
+  opacity: 1;
+  max-height: 500px; }
 
 /*# sourceMappingURL=main.css.map */
