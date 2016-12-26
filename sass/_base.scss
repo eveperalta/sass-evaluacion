@@ -8,6 +8,12 @@
 		}
 	}
 }
+.logo{
+	width: 150px;
+	height: 40px;
+	margin-top: $margintop;
+	margin-bottom: $paddingmin;
+}
 //foto cuadro a la izquierda
 .foto{
 	background-image:url(../img/1.png);
@@ -260,4 +266,10 @@ div.panel.show {
 }
 .wnlist{
 	margin-top: -15px;
+}
+.business{
+	background-image: url(../img/24.png);
+	background-size: cover;
+	background-repeat: no repeat;
+	height:150px;
 }

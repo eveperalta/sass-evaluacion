@@ -6359,6 +6359,12 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   .navbar ul li a {
     color: black; }
 
+.logo {
+  width: 150px;
+  height: 40px;
+  margin-top: 15px;
+  margin-bottom: 10px; }
+
 .foto {
   background-image: url(../img/1.png);
   background-size: cover;
@@ -6557,5 +6563,11 @@ div.panel.show {
 
 .wnlist {
   margin-top: -15px; }
+
+.business {
+  background-image: url(../img/24.png);
+  background-size: cover;
+  background-repeat: no repeat;
+  height: 150px; }
 
 /*# sourceMappingURL=main.css.map */
