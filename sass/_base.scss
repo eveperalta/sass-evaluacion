@@ -82,7 +82,7 @@
 }
 //foto top bottom left
 .rightb{
-	background-image:url(../img/31.png);
+	background-image:url(../img/41.png);
 	background-size: 200px;
 	background-repeat: no-repeat;
 	height: 122px;
@@ -130,11 +130,11 @@
 	margin-top: -7px;
 	width: 90px;
 	height: 60px;
-	padding-bottom: 50px;
+	padding-bottom: 30px;
 	p{
 		text-align:center;
 		margin-top:-5px;
-		padding: 8px;
+		padding: 5px;
 
 	}
 }
@@ -152,15 +152,15 @@
 	margin-top:$margintop;
 	padding-top: $margintop;
 	iframe{
-		margin-left: 5px;
+		margin-left:7px;
 	}
 }
 .pics{
 
 	img{
 	 display: inline-block;
-	 padding:10px;
-	 margin-left:5px;
+	 padding:5px;
+	 margin-left:15px;
 				
 		}
 }
@@ -170,49 +170,6 @@
 		display:inline-block;
 		margin-right: 15px;
 	}	
-}
-button.accordion {
-    background-color: $bgcolor;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid #C6C5C5;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-}
-
-button.accordion.active, button.accordion:hover {
-    background-color: #ddd;
-}
-
-button.accordion:after {
-    content: '\002B';
-    color: #777;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-}
-
-button.accordion.active:after {
-    content: '\2212';
-}
-
-div.panel {
-    padding: 0 18px;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: 0.6s ease-in-out;
-    opacity: 0;
-}
-
-div.panel.show {
-    opacity: 1;
-    max-height: 500px;  
 }
 .fila2{
 	position:relative;
@@ -235,6 +192,7 @@ div.panel.show {
 	@extend .rating;
 	float:left;
 	font-size: 12px;
+	width: 100%;
 }
 .listpics{
 	border-bottom:1px solid #CCCBCB;
@@ -261,9 +219,8 @@ div.panel.show {
 	position:relative;
 	top: 10px;
 }
-.navbar2{
-	margin-top: -50px;
-}
+
+
 .wnlist{
 	margin-top: -15px;
 }
@@ -272,4 +229,14 @@ div.panel.show {
 	background-size: cover;
 	background-repeat: no repeat;
 	height:150px;
+
+}
+.sports{
+	background-image: url(../img/20.png);
+	background-size: cover;
+	background-repeat: no repeat;
+	height:150px;
+}
+.up{
+	margin-top: -80px;
 }

@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Sass Evaluacion</title>
-	<link rel="stylesheet" href="css/main.css">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sass Evaluacion</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-<header>
-<div class="container">
-<img src="img/logo.png" class="logo" alt="">
-<nav>
-    <div class="nav-wrapper navbar line">
-      <ul id="nav-mobile" class="right">
-        <li><a href="#">WORLD.</a></li>
+  <header>
+    <div class="container">
+      <img src="img/logo.png" class="logo" alt="">
+    <nav>
+      <div class=" col s12 nav-wrapper navbar line">
+      <ul id="nav-mobile" class="left">
+      <li><a href="#">WORLD.</a></li>
       <li><a href="#">BUSINESS.</a></li>
       <li><a href="#">POLITICS.</a></li>
       <li><a href="#">SPORTS.</a></li>
@@ -22,70 +22,65 @@
       <li><a href="#">SCIENCE.</a></li>
       <li><a href="#">SPOTLIGHT.</a></li>
       <li><input type="search" placeholder="search"></li>
-      </ul>
-    </div>
-  </nav>
-</div>
-</header>
-<section>
-<div class="container">
-<div class="row">
-	<div class="col s7">
-		<div class="foto">
-			<button class="btn btn red">Popular</button>
-			<div class="text">
-				<a href="#">Awesome Wordpress Theme.</a>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia totam esse culpa, eum consequatur optio dicta, aperiam nemo nihil perspiciatis ea illo?.</p>
-			</div>
-		</div>
-	</div>
-	<div class="col s5">
-		<div class="rigth">
-			<button class="btn btn red">Popular</button>
-			<div class="text1">
-				<a href="#">Awesome Wordpress Theme.</a>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-			</div>
-		</div>
-	</div>
-	<div class="col s3">
-		<div class="righta">
-			<div class="text2">
-				<a href="#">Awesome Wordpress Theme.</a>
-			</div>
-		</div>
-	</div>
-	<div class="col s2">
-		<div class="rightb">
-			<div class="text2">
-				<a href="#">Awesome Wordpress Theme.</a>
-			</div>
-		</div>
-	</div>
-</div>	
-</div>
-</section>
-<section>
-	<!-- latest news section -->
-<section>
+      </ul> 
+      </div>
+    </nav>
+    </div><!--fin del container del navbar -->
+  </header>
+<section><!-- -->
   <div class="container">
-    <!--inicio container popular hot y rs -->
     <div class="row">
-      <div class="col s4">
-        <h5 class="line">
-          <span>POPULAR NEWS.</span>
-        </h5>
-        <div class="first">
-          <ul>
-            <li>
-              <img src="img/18.png" class="img-responsive" alt="">
-                <p class="title">
-                  <span>26 May, 2013.</span>
-                  <br>
-                    <a href="#">Blandit Rutrum, Erat et sagitis.</a>
-                  </p>
-                  <p>
-                    <span class="rating">
+      <div class="col s12 m7"><!--slider popular -->
+        <div class="foto">
+          <button class="btn btn red">Popular</button>
+          <div class="text">
+            <a href="#">Awesome Wordpress Theme.</a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia totam esse culpa, eum consequatur optio dicta, aperiam nemo nihil perspiciatis ea illo?.</p>
+          </div>
+        </div>
+      </div><!--slider popular -->
+<div class="col s12 m5"><!--columna de fotos a la derecha -->
+    <div class="rigth">
+      <button class="btn btn red">Popular</button>
+      <div class="text1">
+        <a href="#">Awesome Wordpress Theme.</a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+      </div>
+    </div>
+  </div>
+ <div class="col s6 m3">
+    <div class="righta">
+      <div class="text2">
+        <a href="#">Awesome Wordpress Theme.</a>
+      </div>
+    </div>
+  </div>
+  <div class="col s6 m2">
+    <div class="rightb">
+      <div class="text2">
+        <a href="#">Awesome Wordpress Theme.</a>
+      </div>
+    </div>
+  </div>
+ </div><!--fin del row -->
+</div><!--fin del container slider -->
+</section><!--fin del top section -->
+<section>
+  <div class="container"><!-- INICIO POPULAR NEWS SIDEBAR-->
+    <div class="row"><!-- INICIO POPULAR NEWS SIDEBAR-->
+     <div class="col s12 m4"><!-- INICIO POPULAR NEWS SIDEBAR-->
+       <h5 class="line"><span>POPULAR NEWS.</span></h5>
+       <div class="first">
+         <ul>
+           <li>
+             <img src="img/51.png" height="86" width="140" alt="">
+             <p class="title">
+               <span>26 May, 2013.</span>
+                <br>
+                <a href="#">Blandit Rutrum, Erat et sagitis.</a>
+             </p>
+              <p>
+              <span class="rating">
                       <span>
                         <i class="tiny material-icons">star</i>
                         <i class="tiny material-icons">star</i>
@@ -95,133 +90,136 @@
                       </span>
                     </span>
                   </p>
-                  <hr></li>
-                  <li>
-                    <img src="img/18.png" class="img-responsive" alt="">
-                      <p class="title">
-                        <span>26 May, 2013.</span>
-                        <br>
-                          <a href="#">Blandit Rutrum, Erat et sagitis.</a>
-                        </p>
-                        <p>
-                          <span class="rating">
-                            <span>
-                              <i class="tiny material-icons">star</i>
-                              <i class="tiny material-icons">star</i>
-                              <i class="tiny material-icons">star_border</i>
-                              <i class="tiny material-icons">star_border</i>
-                              <i class="tiny material-icons">star_border</i>
-                            </span>
-                          </span>
-                        </p>
-                        <hr></li>
-                        <li>
-                          <img src="img/18.png" class="img-responsive" alt="">
-                            <p class="title">
-                              <span>26 May, 2013.</span>
-                              <br>
-                                <a href="#">Blandit Rutrum, Erat et sagitis.</a>
-                              </p>
-                              <p>
-                                <span class="rating">
-                                  <span>
-                                    <i class="tiny material-icons">star</i>
-                                    <i class="tiny material-icons">star</i>
-                                    <i class="tiny material-icons">star</i>
-                                    <i class="tiny material-icons">star_border</i>
-                                    <i class="tiny material-icons">star_border</i>
-                                  </span>
-                                </span>
-                              </p>
-                              <hr></li>
-                              <li>
-                                <img src="img/18.png" class="img-responsive" alt="">
-                                  <p class="title">
-                                    <span>26 May, 2013.</span>
-                                    <br>
-                                      <a href="#">Blandit Rutrum, Erat et sagitis.</a>
-                                    </p>
-                                    <p>
-                                      <span class="rating">
-                                        <span>
-                                          <i class="tiny material-icons">star</i>
-                                          <i class="tiny material-icons">star</i>
-                                          <i class="tiny material-icons">star</i>
-                                          <i class="tiny material-icons">star</i>
-                                          <i class="tiny material-icons">star</i>
-                                        </span>
-                                      </span>
-                                    </p>
-                                    <hr></li>
-                                  </ul>
-                                </div>
-                              </div>
-                              <!-- fin barra de la derecha -->
-<div class="col s4"><!--barra central -->
+                <hr>
+           </li>
+           <li>
+            <img src="img/61.png" height="86" width="140" alt="">
+             <p class="title">
+               <span>26 May, 2013.</span>
+                <br>
+                <a href="#">Blandit Rutrum, Erat et sagitis.</a>
+             </p>
+              <p>
+              <span class="rating">
+                      <span>
+                        <i class="tiny material-icons">star</i>
+                        <i class="tiny material-icons">star</i>
+                        <i class="tiny material-icons">star</i>
+                        <i class="tiny material-icons">star</i>
+                        <i class="tiny material-icons">star_border</i>
+                      </span>
+                    </span>
+                  </p>
+                <hr>
+           </li>
+           <li>
+             <img src="img/8.png" height="86" width="140" alt="">
+             <p class="title">
+               <span>26 May, 2013.</span>
+                <br>
+                <a href="#">Blandit Rutrum, Erat et sagitis.</a>
+             </p>
+              <p>
+              <span class="rating">
+                      <span>
+                        <i class="tiny material-icons">star</i>
+                        <i class="tiny material-icons">star</i>
+                        <i class="tiny material-icons">star</i>
+                        <i class="tiny material-icons">star</i>
+                        <i class="tiny material-icons">star_border</i>
+                      </span>
+                    </span>
+                  </p>
+                <hr>
+           </li>
+           <li>
+             <img src="img/18.png" height="86" width="140" alt="">
+             <p class="title">
+               <span>26 May, 2013.</span>
+                <br>
+                <a href="#">Blandit Rutrum, Erat et sagitis.</a>
+             </p>
+              <p>
+              <span class="rating">
+                      <span>
+                        <i class="tiny material-icons">star</i>
+                        <i class="tiny material-icons">star</i>
+                        <i class="tiny material-icons">star</i>
+                        <i class="tiny material-icons">star</i>
+                        <i class="tiny material-icons">star_border</i>
+                      </span>
+                    </span>
+                  </p>
+                <hr>
+           </li>
+         </ul>
+       </div><!-- end del first--> 
+    </div><!-- fin POPULAR NEWS SIDEBAR-->        
+<div class="col s12 m4"><!--barra del medio -->
       <h5 class="line"><span>HOT NEWS.</span></h5>
-      <div class="first">
-        <ul>
-          <li>
-            <img src="img/18.png" class="img-responsive" alt="">
-            <p class="title">
-            <span>26 May, 2013.</span>
-            <br>
-            <a href="#">Blandit Rutrum, Erat et sagitis.</a>
-            </p>
-            <p>
-            <span class="rating">
-              <span><i class="tiny material-icons">star</i><i class="tiny material-icons">star</i><i class="tiny material-icons">star_border</i><i class="tiny material-icons">star_border</i><i class="tiny material-icons">star_border</i></span>
-            </span> 
-            </p>            
-            <hr>
-          </li>
-          <li>
-            <img src="img/18.png" class="img-responsive" alt="">
-            <p class="title">
-            <span>26 May, 2013.</span>
-            <br>
-            <a href="#">Blandit Rutrum, Erat et sagitis.</a>
-            </p>
-            <p>
-            <span class="rating">
-              <span><i class="tiny material-icons">star</i><i class="tiny material-icons">star</i><i class="tiny material-icons">star</i><i class="tiny material-icons">star</i><i class="tiny material-icons">star</i></span>
-            </span> 
-            </p>            
-            <hr>
-          </li>
-          <li>
-            <img src="img/18.png" class="img-responsive" alt="">
-            <p class="title">
-            <span>26 May, 2013.</span>
-            <br>
-            <a href="#">Blandit Rutrum, Erat et sagitis.</a>
-            </p>
-            <p>
-            <span class="rating">
-              <span><i class="tiny material-icons">star</i><i class="tiny material-icons">star</i><i class="tiny material-icons">star</i><i class="tiny material-icons">star</i><i class="tiny material-icons">star_border</i></span>
-            </span> 
-            </p>            
-            <hr>
-          </li>
-          <li>
-            <img src="img/18.png" class="img-responsive" alt="">
-            <p class="title">
-            <span>26 May, 2013.</span>
-            <br>
-            <a href="#">Blandit Rutrum, Erat et sagitis.</a>
-            </p>
-            <p>
-            <span class="rating">
-              <span><i class="tiny material-icons">star</i><i class="tiny material-icons">star</i><i class="tiny material-icons">star</i><i class="tiny material-icons">star</i><i class="tiny material-icons">star</i></span>
-            </span> 
-            </p>            
-            <hr>
-          </li>
-        </ul>
-      </div> 
-    </div><!--fin de la barra central -->
-<div class="sidebar col s4 "><!--redes sociales -->
-      <h5 class="line"><span>STAY CONNECTED.</span></h5>
+<div class="first">
+<ul>
+ <li>
+   <img src="img/18.png" class="img-responsive" alt="">
+      <p class="title">
+        <span>26 May, 2013.</span>
+          <br>
+          <a href="#">Blandit Rutrum, Erat et sagitis.</a>
+      </p>
+      <p>
+      <span class="rating">
+          <span><i class="tiny material-icons">star</i><i class="tiny material-icons">star</i><i class="tiny material-icons">star</i><i class="tiny material-icons">star</i><i class="tiny material-icons">star</i></span>
+      </span> 
+      </p>            
+      <hr>
+ </li>
+ <li>
+   <img src="img/18.png" class="img-responsive" alt="">
+      <p class="title">
+        <span>26 May, 2013.</span>
+          <br>
+          <a href="#">Blandit Rutrum, Erat et sagitis.</a>
+      </p>
+      <p>
+      <span class="rating">
+          <span><i class="tiny material-icons">star</i><i class="tiny material-icons">star</i><i class="tiny material-icons">star</i><i class="tiny material-icons">star</i><i class="tiny material-icons">star</i></span>
+      </span> 
+      </p>            
+      <hr>
+ </li> 
+ <li>
+   <img src="img/18.png" class="img-responsive" alt="">
+      <p class="title">
+        <span>26 May, 2013.</span>
+          <br>
+          <a href="#">Blandit Rutrum, Erat et sagitis.</a>
+      </p>
+      <p>
+      <span class="rating">
+          <span><i class="tiny material-icons">star</i><i class="tiny material-icons">star</i><i class="tiny material-icons">star</i><i class="tiny material-icons">star</i><i class="tiny material-icons">star</i></span>
+      </span> 
+      </p>            
+      <hr>
+ </li>
+ <li>
+   <img src="img/18.png" class="img-responsive" alt="">
+      <p class="title">
+        <span>26 May, 2013.</span>
+          <br>
+          <a href="#">Blandit Rutrum, Erat et sagitis.</a>
+      </p>
+      <p>
+      <span class="rating">
+          <span><i class="tiny material-icons">star</i><i class="tiny material-icons">star</i><i class="tiny material-icons">star</i><i class="tiny material-icons">star</i><i class="tiny material-icons">star</i></span>
+      </span> 
+      </p>            
+      <hr>
+ </li>
+</ul>  
+</div><!--barra del medio -->
+</div><!--barra del medio -->
+<div class="sidebar col s12 m4 "><!--redes sociales -->
+  <h5 class="line"><span>STAY CONNECTED.</span></h5>
       <div class="row">
         <div class="col s4">
           <a href="#">
@@ -234,7 +232,7 @@
               </p>
             </div>
         </div>
-        <div class="col s4">
+        <div class="col s12 m4">
           <a href="#">
               <img src="img/twitter-bird-icon-wallpaper.png" class="img-responsive" alt="" width="90px" height="60px">
             </a>
@@ -364,49 +362,49 @@
         </li>
       </ul>
       </div>
-    </div><!--final row seccion noticias comments etc.-->
-    <div class="row">
-      <div>
-        <h6 class="line" ><span>ACCORDION.</span></h6> 
-      </div>
-      <button class="accordion">Poserue Clubre.</button>
-      <div class="panel">
-        <p>Vestibulum tempor feugiat est in posuere.Sed auctor libero augue, a faucibus turpis. Vestibulum ante ipsum primis in faucibus orce luctus et ultrices.posuere. </p>
-        <hr>
-      </div>
-      <button class="accordion">Lubella Mest.</button>
-      <div class="panel">
-        <p>Vestibulum tempor feugiat est in posuere.Sed auctor libero augue, a faucibus turpis. Vestibulum ante ipsum primis in faucibus orce luctus et ultrices.posuere. </p>
-        <hr>
-      </div>
-      <button class="accordion">Tincidutt Masa.</button>
-      <div class="panel">
-        <p>Vestibulum tempor feugiat est in posuere.Sed auctor libero augue, a faucibus turpis. Vestibulum ante ipsum primis in faucibus orce luctus et ultrices.posuere. </p>
-        <hr>
-      </div>
     </div>
-    <div class="row">
-      <div>
-        <h6 class="line" ><span>FIND US IN FACEBOOK.</span></h6> 
+<div class="row">
+  <div class="sidebar">
+    <h6 class="line"><span>ACCORDION.</span></h6> 
+  </div>
+  <ul class="collapsible" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">add</i>Poseure Clubre.</div>
+      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius laudantium, voluptates vel praesentium rerum, sunt minima repellendus animi at asperiores placeat tenetur inventore amet quo eligendi delectus dicta voluptas sit..</p></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">add</i>Lubella Mest.</div>
+      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">add</i>Tincidut Massa.</div>
+      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+    </li>
+  </ul>
+</div>
+ <div class="row">
+      <div class="sidebar">
+        <h6 class="line"><span>FIND US IN FACEBOOK.</span></h6> 
       </div>
       <br>
       <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fenvato&amp;width=298&amp;height=258&amp;show_faces=true&amp;colorscheme=light&amp;stream=false&amp;border_color=%23BCBCBC&amp;header=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:298px; height:258px;" allowtransparency="true"></iframe>
     </div>
-    </div><!-- fin row sidebar a la derecha --> 
-    </div><!-- fin del sidebar a la derecha --> 
- </div><!--fin row de popular hot y rs -->
-                         
+       <!------------------------------ -->
+    </div><!--FIN DEL row SIDEBAR POPULAR -->
+  </div><!--FIN DEL CONTAINER POPULAR -->
+</div>
+</section>
 <section class="fila2"> <!--Lifestyle section imagen 1 -->
 <div class="container">
   <div class="row">
-      <div class="col s8 navbar">
+      <div class="col s12 m8 navbar">
       <h5 class="line"><span>LIFE STYLE.</span>
           <a href="#" class=""><i class="small material-icons">skip_next</i></a>
           <a href="#"><i class="small material-icons">skip_previous</i></a></h5>
       </div>
     </div>
 <div class="row">
-  <div class="col s4">
+  <div class="col s12 m4">
     <img src="img/24.png" alt="">
      <p class="ls-title">
           <a href="#" style="color: black">Blandit Rutrum, Erat et sagitis.</a>
@@ -422,7 +420,7 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt unde, temporibus tempore, eligendi ab quae incidunt voluptatem libero explicabo autem, quaerat animi quia saepe consectetur tenetur magni voluptatum nam iure.
         </p>
   </div>
-  <div class="col s4">
+  <div class="col s12 m4">
     <div class="listpics">
       <img src="img/11.png" alt="">
        <a href="#" style="color: black">Blandit Rutrum, Erat et <br>sagitis.</a>
@@ -486,14 +484,14 @@
   </div>
 </div><!--fin del life style -->
 <div class="row"><!--world news -->
-   <div class="col s8 navbar2">
+   <div class="col s12 m8 up">
       <h5 class="line"><span>WORLD NEWS.</span>
           <a href="#" class=""><i class="small material-icons">skip_next</i></a>
           <a href="#"><i class="small material-icons">skip_previous</i></a></h5>
       </div>
     </div>
 <div class="row">
-  <div class="col s4">
+  <div class="col s12 m4">
     <img src="img/24.png" alt="">
     </div>
     <div class="col s4">
@@ -513,7 +511,7 @@
     </div>
   </div>
   <div class="row"><!--fotos de la derecha del world news -->
-    <div class="col s4">
+    <div class="col s12 m4">
        <div class="listpics">
       <img src="img/11.png" alt="">
        <a href="#" style="color: black">Blandit Rutrum, Erat et <br>sagitis.</a>
@@ -529,7 +527,7 @@
             </span>
           </p>
     </div>
-     <div class="listpics">
+     <div class="listpics1">
       <img src="img/11.png" alt="">
        <a href="#" style="color: black">Blandit Rutrum, Erat et <br>sagitis.</a>
          <p>
@@ -545,7 +543,7 @@
           </p>
     </div>
     </div><!--fin de las fotos de la izquierda del world news -->
-  <div class="col s4">
+  <div class="col s12 m4">
        <div class="listpics">
       <img src="img/11.png" alt="">
        <a href="#" style="color: black">Blandit Rutrum, Erat et <br>sagitis.</a>
@@ -561,7 +559,7 @@
             </span>
           </p>
     </div>
-     <div class="listpics">
+     <div class="listpics1">
       <img src="img/11.png" alt="">
        <a href="#" style="color: black">Blandit Rutrum, Erat et <br>sagitis.</a>
          <p>
@@ -580,15 +578,24 @@
 
   </div><!--fin del row de world news bloque de fotos -->
 <div class="row"><!--inicio business -->
-  <div class="col s4">
+  <div class="col s12 m4 up">
     <h5 class="line"><span>BUSINESS.</span></h5>
-<div class="row">
-  
-</div>
+
   <div class="business"></div>
-    <a href="#" style="color: black">Blandit Rutrum, Erat et <br>sagitis.</a>
-  
-  <div class="listpics">
+    <a href="#" style="color: black">Blandit Rutrum, Erat et sagitis. Lorem ipsum dolor sit amet.</a>
+         <p>
+          <span class="ls-rating">
+            <span>26 May, 2013.</span>
+            <span>\\World News.</span>
+            <span>\\No comments.</span> 
+          </span>
+        </p>
+        <br>
+        <br>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores alias molestias eligendi veritatis quo neque mollitia repellendus inventore pariatur id corporis voluptates similique obcaecati dolore et, porro, consequuntur, ipsa amet!
+      </p>
+<div class="listpics">
       <img src="img/11.png" alt="">
        <a href="#" style="color: black">Blandit Rutrum, Erat et <br>sagitis.</a>
          <p>
@@ -602,31 +609,79 @@
                <span>26 May, 2013.</span>   
             </span>
           </p>
-    </div> 
+    </div>
+    <div class="listpics1">
+      <img src="img/11.png" alt="">
+       <a href="#" style="color: black">Blandit Rutrum, Erat et <br>sagitis.</a>
+         <p>
+          <span class="rating-pics">
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star</i>
+                <br>
+               <span>26 May, 2013.</span>   
+            </span>
+          </p>
+    </div>
   </div>
-
+<div class="row"><!--inicio sports -->
+  <div class="col s12 m4 up">
+    <h5 class="line"><span>SPORTS.</span></h5>
+  <div class="sports"></div>
+    <a href="#" style="color: black">Blandit Rutrum, Erat et sagitis. Lorem ipsum dolor sit amet.</a>
+         <p>
+          <span class="ls-rating">
+            <span>26 May, 2013.</span>
+            <span>\\World News.</span>
+            <span>\\No comments.</span> 
+          </span>
+        </p>
+        <br>
+        <br>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores alias molestias eligendi veritatis quo neque mollitia repellendus inventore pariatur id corporis voluptates similique obcaecati dolore et, porro, consequuntur, ipsa amet!
+      </p>
+<div class="listpics">
+      <img src="img/11.png" alt="">
+       <a href="#" style="color: black">Blandit Rutrum, Erat et <br>sagitis.</a>
+         <p>
+          <span class="rating-pics">
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star</i>
+                <br>
+               <span>26 May, 2013.</span>   
+            </span>
+          </p>
+    </div>
+    <div class="listpics1">
+      <img src="img/11.png" alt="">
+       <a href="#" style="color: black">Blandit Rutrum, Erat et <br>sagitis.</a>
+         <p>
+          <span class="rating-pics">
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star</i>
+                <br>
+               <span>26 May, 2013.</span>   
+            </span>
+          </p>
+    </div>
+  </div>
 </div><!--fin del row business -->
-
-</div><!-- fin del row-->
-</div><!--fin del container lifestyle -->
-</section>  <!--fin del section2 -->
- </div><!--fin container popular hot y rs -->               
- </section><!--fin section1-->
-                        
-
-
-
-
-
-
-
-		
-
-
+</div><!--fin del container -->
+</section><!--fin del section 2 -->
 
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
+<script src="js/main.js"></script>
+
 </body>
 </html>
